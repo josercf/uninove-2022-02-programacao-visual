@@ -49,6 +49,7 @@ namespace Uninove.Pizzaria.V2
 
     public class BordaPizza
     {
+        public bool Recheada { get; set; }
         public List<IngredienteReceita> Ingredientes { get; set; }
     }
 }
